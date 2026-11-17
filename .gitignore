@@ -1,0 +1,94 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# React
+node_modules/
+dist/
+
+# Sensitive files
+.env
+.env.*
+
+# Dataset files
+Dataset_V3_Detection3Class/
+datasets/
+dataset/
+
+# Large compressed archives
+*.zip
+*.7z
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+/Dataset/
+/Dataset_V3_Detection3Class/
+/Dataset_V3_Detection3Class_CLEAN/
+/Fruit_Verifier_Dataset/
+/Prepared_Dataset/
+/candidate_training/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# React dependencies
+node_modules/
+dist/
+
+# Sensitive files
+.env
+.env.*
+
+# Datasets
+/Dataset/
+/Dataset_V3_Detection3Class/
+/Dataset_V3_Detection3Class_CLEAN/
+/Fruit_Verifier_Dataset/
+/Prepared_Dataset/
+/candidate_training/
+
+# Archives
+*.zip
+*.7z
+
+# Large root-level ViT model folders
+/Best_ViT_Model/
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+# Training datasets and temporary data
+/Dataset/
+/Dataset_V3_Detection3Class/
+/Dataset_V3_Detection3Class_CLEAN/
+/Fruit_Verifier_Dataset/
+/Prepared_Dataset/
+/candidate_training/
+
+# Older application version
+/Review01_App_FINAL/
+
+# Python generated files
+**/__pycache__/
+*.pyc
+
+# Generated outputs and experiments
+**/outputs/
+**/runs/
+**/annotation_diagnostics/
+**/diagnostic_thresholds/
+**/pear_error_audit*/
+**/threshold_comparison/
+**/yolo_*/
+/Best_ViT_Model_V2/model.safetensors

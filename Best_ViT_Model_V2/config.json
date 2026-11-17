@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "dtype": "float32",
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Apple_Overripe",
+    "1": "Apple_Ripe",
+    "2": "Apple_Unripe",
+    "3": "Orange_Overripe",
+    "4": "Orange_Ripe",
+    "5": "Orange_Unripe",
+    "6": "Pear_Overripe",
+    "7": "Pear_Ripe",
+    "8": "Pear_Unripe"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Apple_Overripe": 0,
+    "Apple_Ripe": 1,
+    "Apple_Unripe": 2,
+    "Orange_Overripe": 3,
+    "Orange_Ripe": 4,
+    "Orange_Unripe": 5,
+    "Pear_Overripe": 6,
+    "Pear_Ripe": 7,
+    "Pear_Unripe": 8
+  },
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 12,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "pooler_act": "tanh",
+  "pooler_output_size": 768,
+  "qkv_bias": true,
+  "transformers_version": "5.15.0"
+}
